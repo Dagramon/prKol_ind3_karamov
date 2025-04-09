@@ -20,19 +20,19 @@ namespace prKol_ind3_karamov
             get { return b; }
             set { b = value; }
         }
-        public static string sum(double a1, double b1, double a2, double b2)
+        public static string Sum(double a1, double b1, double a2, double b2)
         {
             double sum1 = a1 + a2;
             double sum2 = b1 + b2;
             return $"{sum1} + {sum2}i";
         }
-        public static string razn(double a1, double b1, double a2, double b2)
+        public static string Razn(double a1, double b1, double a2, double b2)
         {
             double sum1 = a1 - a2;
             double sum2 = b1 - b2;
             return $"{sum1} + {sum2}i";
         }
-        public static string proizv(double a1, double b1, double a2, double b2)
+        public static string Proizv(double a1, double b1, double a2, double b2)
         {
             double sum1 = a1*a2 - b1*b2;
             double sum2 = a1*b2 + b1*a2;
